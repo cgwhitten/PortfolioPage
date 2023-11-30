@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* header with background picture of Middlesboro courthouse */
+header {
+  background-image: url('images/MBoro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  padding-bottom: 250px; /* played around here to get more of the image to show */
+  font-family: 'Carrois Gothic SC', sans-serif; /* cool font I found */
+  margin-bottom: 0px; /*Trying to get the header to connect to the main body background*/
+}
+
+h1 {
+  color: black;
+  font-size: 80px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px darkgray;
+}
+
+h2 {
+  font-size: 35px;
+  text-shadow: 2px 2px 2px darkgray;
+}
+
+main {
+  background-color: lightgray;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  text-align: center;
+  margin-top: 0px; /* Trying to connect to header image! */
+  padding-top: 0px; /* ditto */
+}
+
+/* Styled links */
+a:link    { color: blue;  }
+a:visited { color: darkblue;   }
+a:hover   { color: red; }
+a:active  { color: darkred;  }
