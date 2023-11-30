@@ -5,7 +5,7 @@ html {
 
 /* header with background picture of Middlesboro courthouse */
 header {
-  background-image: url('images/MBoro.jpg');
+  background-image: url('MBoro.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: lightgray;
