@@ -40,3 +40,7 @@ a:link    { color: blue;  }
 a:visited { color: darkblue;   }
 a:hover   { color: red; }
 a:active  { color: darkred;  }
+
+.picture {
+  border-radius: 50%;
+}
